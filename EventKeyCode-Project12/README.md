@@ -3,3 +3,4 @@
 1. window DOM control
 2. Passing an object to keydown event
 3. innerHTML control
+4. Tenery operator
