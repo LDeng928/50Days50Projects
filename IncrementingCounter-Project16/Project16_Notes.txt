@@ -1,0 +1,5 @@
+1. Bring the counter class using querySelector
+2. NodeList, like an array. Use forEach to loop.
+3. Create a function updateCounter() to update DOM.
+4. Use + sign to change the data-target to number data type. 
+5. Use setTimeout() and recursion to update the DOM.
