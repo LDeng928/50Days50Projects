@@ -16,6 +16,7 @@ async function getMovies(url) {
 
   // Calls showMovies to insert elements into the DOM
   showMovies(data.results)
+  console.log(data.results)
 }
 
 function showMovies(movies) {
@@ -63,7 +64,7 @@ form.addEventListener('submit', (e) => {
 
 // Utility function
 function getClassByRate(vote) {
-  if(vote >= 8 ) {
+  if(vote >= 7.5 ) {
     return 'green'
   } else if(vote >= 5) {
     return 'orange'

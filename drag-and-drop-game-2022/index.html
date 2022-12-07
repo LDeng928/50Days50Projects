@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag and Drop Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Chinese Matching Game</h1>
+  <p>Drag the English phrase over to the matching Chinese phrase</p>
+
+  <main class="container">
+    <div>
+      <ul class="draggable-list">
+        <!-- <li id="e1" draggable="true">What's your name?</li>
+        <li id="e2" draggable="true">Nice to meet you.</li>
+        <li id="e3" draggable="true">I'm sorry.</li>
+        <li id="e4" draggable="true">What do you do in your free time?</li>
+        <li id="e5" draggable="true">Is something wrong?</li> -->
+      </ul>
+    </div>
+    <div>
+      <ul class="draggable-list-chinese">
+        <!-- <li id="s1" draggable="true">你的名字是？</li>
+        <li id="s2" draggable="true">很高兴认识你。</li>
+        <li id="s3" draggable="true">不好意思</li>
+        <li id="s4" draggable="true">你平时有空做什么？</li>
+        <li id="s5" draggable="true">请问有什么问题吗？</li> -->
+      </ul>
+    </div>
+  </main>
+
+  <div id="endMessage">
+    <h2>Well done!</h2>
+    <h2>很好！</h2>    
+    <table>
+      <tr>
+        <th>English</th>
+        <th>Chinese</th>
+      </tr>
+      <tr>
+        <td>What’s your name?</td>
+        <td>你的名字是？</td>
+      </tr>
+      <tr>
+        <td>Nice to meet you</td>
+        <td>很高兴认识你。</td>
+      </tr>
+      <tr>
+        <td>I'm sorry</td>
+        <td>不好意思</td>
+      </tr>
+      <tr>
+        <td>What do you do in your free time?</td>
+        <td>你平时有空做什么？</td>
+      </tr>
+      <tr>
+        <td>Is something wrong?</td>
+        <td>请问有什么问题吗？</td>
+      </tr>
+    </table>
+
+    <button id="playAgain">Play again</button>
+  </div>
+
+  <script src="script.js" type="module"></script>
+</body>
+
+</html>
